@@ -1,0 +1,8 @@
+body {background-color: aqua;}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+#myHeader{
+    text-align: center;
+}
+.content {
+    margin-bottom: 12px;
+}

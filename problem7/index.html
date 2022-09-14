@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Input box for a name -->
+    <input id="name-input" type="text" placeholder="Enter your name" />
+    <!-- Button beside the input box-->
+    <button id="my-button">Click Me</button>
+
+<script>
+    // gets the button from page
+  var myButton = document.querySelector('#my-button');
+  // uses name stored from the user input
+  var nameInput = document.querySelector('#name-input');
+    //on click event for button using a function
+  myButton.addEventListener('click', function () {
+    //if name field is not empty, alerts the user with the name provided
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+</body>
+</html>
